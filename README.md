@@ -492,6 +492,11 @@ graph TB
 ## 🚀 Latest Projects
 
 <!-- STATS:START -->
+<div align="center">
+
+![Public Repos](https://img.shields.io/badge/Public%20Repos-0-0A7C86?style=for-the-badge) ![Stars](https://img.shields.io/badge/Stars-0-512BD4?style=for-the-badge) ![Languages](https://img.shields.io/badge/Languages-0-FF6B35?style=for-the-badge)
+
+</div>
 <!-- STATS:END -->
 
 <br>
@@ -499,6 +504,7 @@ graph TB
 </div>
 
 <!-- PROJECTS:START -->
+_No public projects yet._
 <!-- PROJECTS:END -->
 
 <div align="center">
@@ -508,6 +514,11 @@ graph TB
 <sub>Most used languages across my repositories</sub>
 
 <!-- LANGUAGES:START -->
+<div align="center">
+
+_No data._
+
+</div>
 <!-- LANGUAGES:END -->
 
 <br>
