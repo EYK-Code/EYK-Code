@@ -488,6 +488,68 @@ graph TB
 <br>
 
 <div align="center">
+
+## 🚀 Latest Projects
+
+<!-- STATS:START -->
+<!-- STATS:END -->
+
+<br>
+
+</div>
+
+<!-- PROJECTS:START -->
+<!-- PROJECTS:END -->
+
+<div align="center">
+
+<br>
+
+<sub>Most used languages across my repositories</sub>
+
+<!-- LANGUAGES:START -->
+<!-- LANGUAGES:END -->
+
+<br>
+
+<sub>🔄 This section is updated automatically from my GitHub repositories.</sub>
+
+</div>
+
+<br>
+
+<div align="center">
+
+## 📊 GitHub Analytics
+
+<br>
+
+<a href="https://github.com/EYK-Code">
+  <img height="180" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=EYK-Code&show_icons=true&hide_border=true&bg_color=0D1117&title_color=0A7C86&icon_color=512BD4&text_color=C9D1D9&ring_color=0A7C86&count_private=true" />
+</a>
+<a href="https://github.com/EYK-Code?tab=repositories">
+  <img height="180" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EYK-Code&layout=compact&hide_border=true&bg_color=0D1117&title_color=0A7C86&text_color=C9D1D9&langs_count=8" />
+</a>
+
+<br><br>
+
+<img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=EYK-Code&hide_border=true&background=0D1117&ring=0A7C86&fire=512BD4&currStreakLabel=0A7C86&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" />
+
+<br><br>
+
+## 🐍 Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EYK-Code/EYK-Code/main/assets/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EYK-Code/EYK-Code/main/assets/github-contribution-grid-snake.svg">
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/EYK-Code/EYK-Code/main/assets/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+</div>
+
+<br>
+
+<div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 </div>
 
