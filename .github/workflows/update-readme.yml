@@ -1,0 +1,48 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"      # her pazartesi 06:00 UTC
+  workflow_dispatch:          # Actions sekmesinden elle de çalıştırılabilir
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: README'yi üret
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_readme.py
+
+      # Katkı grafiğini yiyen yılan animasyonu (assets/ altına yazılır)
+      - name: Contribution snake üret
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Doğrudan commit etmek yerine PR açar: sen onaylamadan profil değişmez.
+      - name: Onay için PR aç
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/readme-update
+          title: "README güncellemesi"
+          commit-message: "docs: README ve contribution snake güncellendi"
+          body-path: pr_body.md
+          add-paths: |
+            README.md
+            assets/*.svg
+          delete-branch: true
