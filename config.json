@@ -1,1 +1,6 @@
-
+{
+  "max_projects": 6,
+  "include_forks": false,
+  "pinned_repos": [],
+  "exclude_repos": []
+}
